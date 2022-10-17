@@ -496,4 +496,31 @@ body {
 .rights {
     font-size: .7rem;
     color: #777;
+    margin-bottom: 65px;
 }
+
+.mobile-menu {
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.mobile-menu img {
+    margin-top: 5px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.mobile-menu p {
+    margin-bottom: 0;
+    font-size: .7rem;
+    color: #888;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    padding: 0;
+} 
